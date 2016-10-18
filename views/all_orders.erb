@@ -1,0 +1,12 @@
+<h1>Hello Mx Vz y Cs Lz</h1>
+
+<% @shoe_orders.each do |order| %>
+  <b>Customer Name:</b>
+  <p><%= order.full_name %></p> 
+  <b>Shoe Size:</b>
+  <p><%= order.size %></p> 
+  <b>Quantity:</b>
+  <p><%= order.quantity %></p>
+  <hr>
+  
+<% end %>
