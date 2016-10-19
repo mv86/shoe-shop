@@ -1,8 +1,12 @@
-<h1>Hello Mx Vz y Cs Lz</h1>
+<h1>Hello Mr Peters.</h1>
+
+<h3>Here are the current orders.</h3>
 
 <% @shoe_orders.each do |order| %>
   <b>Customer Name:</b>
   <p><%= order.full_name %></p> 
+  <b>Customer Address:</b>
+  <p><%= order.address %></p> 
   <b>Shoe Size:</b>
   <p><%= order.size %></p> 
   <b>Quantity:</b>

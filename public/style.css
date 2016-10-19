@@ -1,0 +1,13 @@
+* {
+  border-color: #D0D2FF;
+}
+
+body {
+  background-color: #F6FFFF;
+  border-color: red;
+  border-width: 4px;
+}
+
+h1 {
+  text-shadow: 1px 2px 1px grey;
+}
